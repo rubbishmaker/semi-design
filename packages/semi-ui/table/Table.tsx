@@ -1060,6 +1060,7 @@ class Table<RecordType extends Record<string, any>> extends BaseComponent<Normal
             }
 
             const stateFilteredValue = get(curQuery, 'filteredValue');
+            console.log(stateFilteredValue, "stateFilteredValue");
             const defaultFilteredValue = get(curQuery, 'defaultFilteredValue');
             const filteredValue = stateFilteredValue ? stateFilteredValue : defaultFilteredValue;
             if (hasFilter) {

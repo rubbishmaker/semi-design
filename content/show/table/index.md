@@ -1205,14 +1205,17 @@ const columns = [
         },
         filters: [
             {
-                text: 'Semi Design 设计稿',
-                value: 'Semi Design 设计稿',
+                text: 'Semi Design 设计稿1为什么这么堵世界杯发生纠纷的伤口部分',
+                value: 'Semi Design 设计稿1',
             },
             {
-                text: 'Semi D2C 设计稿',
-                value: 'Semi D2C 设计稿',
+                text: 'Semi D2C 设计稿2',
+                value: 'Semi D2C 设计稿2',
             },
         ],
+        defaultFilteredValue:['Semi Design 设计稿1'],
+        renderDropDownFooter: true,
+        filterMultiple: true,
         onFilter: (value, record) => record.name.includes(value),
         sorter: (a, b) => (a.name.length - b.name.length > 0 ? 1 : -1),
     },

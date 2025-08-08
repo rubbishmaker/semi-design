@@ -103,7 +103,9 @@ export interface Locale {
         pageText: string;
         descend: string;
         ascend: string;
-        cancelSort: string
+        cancelSort: string;
+        confirm: string;
+        reset: string
     };
     Select: {
         emptyText: string;

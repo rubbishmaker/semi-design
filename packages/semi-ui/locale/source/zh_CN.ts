@@ -16,7 +16,7 @@ const local: Locale = {
         cancel: '取消',
     },
     Tabs: {
-        more: "更多",
+        more: '更多',
     },
     TimePicker: {
         placeholder: {
@@ -106,6 +106,8 @@ const local: Locale = {
         descend: '点击降序',
         ascend: '点击升序',
         cancelSort: '取消排序',
+        confirm: '确定',
+        reset: '重置',
     },
     Select: {
         emptyText: '暂无数据',
@@ -205,8 +207,8 @@ const local: Locale = {
         loading: '加载中...',
         stall: '加载失败',
         noResource: '暂无资源',
-        videoError: '视频加载错误'
-    }
+        videoError: '视频加载错误',
+    },
 };
 
 // 中文
